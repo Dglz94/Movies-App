@@ -2,15 +2,15 @@ import React from "react";
 
 export default function Navbar() {
   return (
-    <div>
-      <h2>Movie App</h2>
-      <div className="nav">
-        <a href="#">Inicio</a>
-        <a href="#">Programas</a>
-        <a href="#">Peliculas</a>
-        <a href="#">Más Recientes</a>
-        <a href="#">Mi lista</a>
-      </div>
-    </div>
+		<div className="contenedor">
+			<h2 className="logotipo">Movies App</h2>
+			<nav>
+				<a href="#" className="activo">Inicio</a>
+				<a href="#">Programas</a>
+				<a href="#">Películas</a>
+				<a href="#">Más Recientes</a>
+				<a href="#">Mi lista</a>
+			</nav>
+		</div>
   );
 }
